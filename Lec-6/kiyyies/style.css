@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    
+    background-color: black;
+    height: 80px;
+    position: fixed;
+
+}
+ul {
+    list-style: none;
+    text-align: end;
+    
+    padding: 20px;
+}
+li {
+    color: white;
+    display: inline;
+    font-size: 1.6rem;
+    padding-inline: 20px;
+    
+}
+.hero-left {
+    width: 60%;
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+.cta-explore{
+    margin-top: 20px;
+    padding:20px 60px ;
+}
+.hero-right {
+    width: 3vw;
+}
+.hero-img {
+    width: 20vw;
+    float: right;
+    margin-top: 10vh;
+}
+footer{
+    height: 200px;
+}
